@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    /* border: border-box; */
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+.navbar{
+    height: 60px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.navlogo{
+    height: 60px;
+    width: 100px;
+   
+}
+.logo{
+    background-image:url("flipkart-logo.jpg.png");
+    background-size: cover;
+    height: 70px;
+    width: 150%;
+}
+.search-icon{
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+}
+.search-icon input{
+    font-size: 25px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: hsl(221, 100%, 90%);
+    text-align: center;
+    height: 32px;
+    width: 400px;
+}
+.search-input{
+ font-size: 1rem;
+ width: 80%;
+ border: none;
+ font-family: arial;
+}
+.search-icon i{
+    font-size:23px;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: hsl(221, 100%, 90%);
+    margin-left: 10px;
+    padding: 5px 5px 5px 5px;
+    
+}
+.account-icon{
+    width: 45px;
+    display: flex;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+}
+.account-icon i{
+    margin-right: 10px;
+}
+
+.select{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    
+}
+.nav-cart{
+    display: flex;
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+}
+.nav-cart i{
+    margin-right: 10px;
+}
+.shop-icon{
+    display: flex;
+    font-size: 20px;
+    color: rgb(11, 11, 11);
+    
+}
+.shop-icon i{
+    margin-right: 10px;
+    
+}
+.container{
+    background-color: aquamarine;
+    
+}
+.middlebar{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.parent{
+    height: 150px;
+    width: 130px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.kilos{
+    width: 90px;
+    height: 64px;
+}
+.kilos img{
+    width: 64px;
+    height: 64px;
+}
+.kilos p{
+    color: black;
+    margin-left: 8px;
+    font-weight: bold;   
+}
+.kilos p a{
+    text-decoration: none;
+    color: black;
+}
+.bar1{
+    background-color: rgb(229, 229, 229);
+    height: 5px;
+    margin-bottom: 5px;
+}
+.sliderImage img{
+    height: 200px;
+    width: 100%;
+}
+.para p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.second-parent{
+    margin-top: 20px;
+    
+}
+.trending img{
+    border-radius: 10px;
+    height: 150px;
+    transition: transform .2s;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px rgb(119, 120, 120);
+}
+.trending:hover{
+    transform: scale(1.1);
+}
+.trending p {
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.trending a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.smartphone p{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.store img{
+    border-radius: 10px;
+    height: 150px;
+    transition: transform .2s;
+    margin-top: 20px;
+}
+.store:hover{
+    transform: scale(1.1);
+}
+.bar{
+    background-color: rgb(234, 233, 233);
+    height: 20px;
+    margin-bottom: 10px;
+}
+.smartphone1 p{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+.image-box img{
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 8px 10px 8px 10px;
+}
+.image-box2 img{
+    height: 300px;
+    width: 300PX;
+    margin-right: 10px;
+    border-radius: 8px 10px 8px 10px;
+}
+.image-box3 img{
+    height: 300PX;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 8px 10px 8px 10px;
+}
+.image-box4 img{
+    height: 300PX;
+    width: 300px;
+    border-radius: 8px 10px 8px 10px;
+}
+.rate p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.btn{
+    background-color: rgb(254, 189, 68);
+    margin-left: 80px;
+    width: 150px;
+    height: 30px;
+    margin: 15px 0 15px 80px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.foot-panel1{
+    background-color: rgb(235, 228, 228);
+    height: 410px;
+    padding-top: 10px;
+    color: rgb(97, 97, 97);
+
+}
+.foot-panel1 p{
+    margin-top: 10px;
+}
+.foot-panel2{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    height: 130px;
+    
+}
+.foot-panel2 img{
+    width: 500px;
+    height: 80px;
+}
